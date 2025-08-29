@@ -7,16 +7,17 @@
 }
 body{
     font-family: Barlow Semi Condensed;
-    height: 100vh;
-    padding: 100px;
-    background-color: rgb(229, 231, 235);
+    height: 130vh;
+    padding: 100px 80px 100px 80px;
+    background-color: rgb(237, 242, 248);
+    overflow: scroll;
 }
 main{
     height:100%;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
+    gap: 34px;
 }
 .profile1{
     background-color: rgb(115, 63, 200);
@@ -25,34 +26,59 @@ main{
     display: flex;
     flex-direction: column;
     position: relative;
-    gap: 10px;
+    gap: 8px;
     justify-content: center;
+    border-radius: 8px;
     
 }
 .profile2{
     background-color: rgb(73, 85, 107);
     padding: 2.5rem;
+     display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 8px;
+    justify-content: center;
+    border-radius: 8px;
 }
 .profile3{
     background-color: rgb(255, 255, 255);
     grid-column: 4/5;
     grid-row: 1/3;
-    padding: 2.5rem;
+    padding: 1.5rem 2.5rem 2rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 8px;
+    justify-content: center;
+    border-radius: 8px;
 }
 .profile4{
     background-color: rgb(255, 255, 255);
-    padding: 2.5rem;
+    padding: 1rem 2.5rem 2rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 8px;
+    justify-content: center;
+    border-radius: 8px;
 }
 .profile5{
     background-color: rgb(24, 32, 45);
     grid-column: 2/4;
     padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 8px;
+    justify-content: center;
+    border-radius: 8px;
 }
 .imgs{
     width: 48px;
     height: 48px;
     border-radius: 100px;
-    border: 5px solid rgba(255, 255,255, 0.5);
+    
 }
 .bakhsh1 div:nth-child(2) span{
 font-size: 16px;
@@ -60,18 +86,18 @@ color:rgb(255, 255,255) ;
 }
 .bakhsh1 div:nth-child(2) p{
 font-size: 12px;
-color:rgb(255, 255,255) ;
+color:rgb(229, 231, 235) ;
 }
 
 .bakhsh1{
      display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 18px;
     align-items: center;
 }
 .img{
     position: absolute;
-    right:30px;
+    right:38px;
     top: 0;
 }
 .bakhsh2 p{
@@ -81,8 +107,36 @@ font-weight: bolder;
 
 }
 .bakhsh3 p{
-        font-size:16px;
-color:rgb(255, 255,255) ;
+ font-size:16px;
+color:rgb(229, 231, 235);
 line-height: 24px;
 margin-top: 10px;
 }
+.bakhsh4 div:nth-child(2) span{
+font-size: 16px;
+color:rgb(71, 85, 105) ;
+}
+.bakhsh4 div:nth-child(2) p{
+font-size: 12px;
+color:rgb(100, 116, 139);
+}
+
+.bakhsh4{
+     display: flex;
+    flex-direction: row;
+    gap: 18px;
+    align-items: center;
+}
+.bakhsh5 p{
+    font-size: 20px;
+color:rgb(71, 85, 105);
+font-weight: bolder;
+
+}
+.bakhsh6 p{
+ font-size:16px;
+color:rgb(100, 116, 139);
+line-height: 24px;
+margin-top: 10px;
+}
+
